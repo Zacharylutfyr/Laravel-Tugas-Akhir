@@ -1,4 +1,4 @@
-@extends('layout/admin/appadmin')
+@extends('layouts/admin/appadmin')
 @section('Judul')
     Index
 @endsection
