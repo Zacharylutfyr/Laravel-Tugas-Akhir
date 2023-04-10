@@ -3,6 +3,7 @@
 use App\Http\Controllers\AboutUsController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CheckoutSucessController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DestinationCheckoutController;
 use App\Http\Controllers\DestinationController;
 use App\Http\Controllers\DestinationDetailController;
@@ -42,3 +43,4 @@ Route::get('/open-detail', [OpenDetailController::class, 'openDetail'])->name('o
 Route::get('/destination-checkout',[DestinationCheckoutController::class, 'destinationCheckout'])->name('destination-checkout');
 Route::get('/private-checkout', [PrivateCheckoutController::class,'privateCheckout'])->name('private-checkout');
 Route::get('/checkout-sucess', [CheckoutSucessController::class, 'checkoutSucess'])->name('checkoutSucess');
+Route::get('/adminindex', [DashboardController::class, 'dashboard'])->name('dashboard');

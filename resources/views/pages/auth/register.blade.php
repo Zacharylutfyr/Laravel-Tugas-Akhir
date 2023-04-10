@@ -19,7 +19,6 @@ Register new traveler
                     <input class="form-control" type="number" placeholder="Phone Number" aria-label="default number example" />
                     <input type="password" class="form-control" placeholder="Password" id="exampleInputPassword1" />
                     <input type="password" class="form-control" placeholder="Re-type your Password" id="exampleInputPassword1" />
-
                     <button type="button" class="btn mt-4">Register</button>
                 </form>
             </div>
